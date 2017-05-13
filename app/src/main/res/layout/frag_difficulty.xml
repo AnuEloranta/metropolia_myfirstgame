@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="25dp"
+    android:paddingLeft="25dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/titleDiff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/diff_text"
+        android:paddingBottom="25dp"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Easy"/>
+    <Button
+        android:id="@+id/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium"/>
+    <Button
+        android:id="@+id/hard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hard"/>
+
+    <TextView
+        android:id="@+id/diffExpl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:textSize="20dp"
+        android:text=""/>
+
+</LinearLayout>

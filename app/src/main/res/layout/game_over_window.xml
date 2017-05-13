@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/labelScoreTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your score: " />
+
+        <TextView
+            android:id="@+id/ScoreTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@+id/labelScoreTag"/>
+
+
+        <TextView
+            android:id="@+id/labelNameTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ScoreTag"
+            android:text="Add name: " />
+
+        <EditText
+            android:id="@+id/nameTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/labelNameTag"/>
+
+        <Button
+            android:id="@+id/addDataBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameTag"
+            android:text="OK"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

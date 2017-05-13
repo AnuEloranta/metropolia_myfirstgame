@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyGame</string>
+    <string name="startbtn_text">Start Game</string>
+    <string name="diff_text">Choose difficulty level</string>
+    <string name="diff_easy_text">The gap between obstacles and the gap to fit through has been set to large</string>
+    <string name="diff_medium_text">The gap between obstacles and the gap to fit through has been set to medium</string>
+    <string name="diff_hard_text">The gap between obstacles and the gap to fit through has been set to small</string>
+    <string name="sound_onoff">Turn sound on and off</string>
+</resources>
